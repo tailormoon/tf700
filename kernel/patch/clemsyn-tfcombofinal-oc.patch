@@ -639,10 +639,10 @@ diff -urN a/arch/arm/mach-tegra/tegra3_dvfs.c b/arch/arm/mach-tegra/tegra3_dvfs.
  
 @@ -939,7 +946,7 @@
  	{
- 		if(project_id == TEGRA3_PROJECT_TF700T)
+ 		if(project_id == TEGRA3_PROJECT_TF300T)
  		{
--			printk("force vdd_core of Tf700t as 1300mV !\n");
-+			printk("force vdd_core of Tf700t as 1350mV !\n");
+-			printk("force vdd_core of Tf300t as 1300mV !\n");
++			printk("force vdd_core of Tf300t as 1350mV !\n");
  		}
  		else if(project_id == TEGRA3_PROJECT_P1801)
  		{
