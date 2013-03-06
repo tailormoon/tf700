@@ -8,15 +8,15 @@
 #       Binary Version  : 2.56
 #       Binary Codename : Edelweis
 #
-# tf700 dualboot installer configuration
+# tf300 dualboot installer configuration
 #
 
 # Initializing Rom Information
-ini_set("rom_name",    "TF700 Dualboot Installer");
-ini_set("rom_version", "v0.8.0");
+ini_set("rom_name",    "TF300 Dualboot Installer");
+ini_set("rom_version", "v1.0.0");
 ini_set("rom_author",  "rabits");
-ini_set("rom_device",  "Asus Transformer TF700/T");
-ini_set("rom_date",    "14/02/2013");
+ini_set("rom_device",  "Asus Transformer TF300/T");
+ini_set("rom_date",    "07/03/2013");
 
 setvar("terms_agreed", "0");
 
@@ -85,8 +85,8 @@ textbox(
 ###################################################################################################################
 # Test device
 #
-if sysprop("ro.product.device")!="tf700" then
-    if sysprop("ro.product.device")!="tf700t" then
+if sysprop("ro.product.device")!="tf300t" then
+    if sysprop("ro.product.device")!="tf300t" then
         alert(
             "<~common.warning>",
             "<~isnotokdevice.info1>" + sysprop("ro.product.device") + "<~isnotokdevice.info2>" ,
