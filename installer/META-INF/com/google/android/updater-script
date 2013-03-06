@@ -1,5 +1,5 @@
-# tf700 Dualboot installer
-ui_print("@ TF700 Dualboot Installer <~process.intro>");
+# tf300 Dualboot installer
+ui_print("@ TF300 Dualboot Installer <~process.intro>");
 ui_print("-----------------------------------------------------");
 ui_print("<~process.info>");
 
